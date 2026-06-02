@@ -29,5 +29,5 @@ Complete Nmap Guide for Beginners | Commands, NSE Scripts, Scanning Techniques &
 
 ## Author
 
-Komalpreet Sahota
+Komalpreet Kaur
 BCA Cyber Security Student
