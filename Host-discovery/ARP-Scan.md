@@ -228,25 +228,7 @@ SYN Scan
 nmap -sS 192.168.1.10
 ```
 
----
 
-## Key Interview Questions
-
-### What is ARP?
-
-ARP (Address Resolution Protocol) maps an IP address to a MAC address within a local network.
-
-### Why is ARP Scan more reliable than ICMP on LANs?
-
-Because most devices must respond to ARP requests even when ICMP is blocked.
-
-### What does -PR do in Nmap?
-
-It forces Nmap to use ARP discovery for host detection.
-
-### Can ARP Scan work over the Internet?
-
-No. ARP is a Layer 2 protocol and works only within the local network.
 
 ### Why does Nmap prefer ARP on local networks?
 
