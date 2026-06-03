@@ -264,26 +264,5 @@ nmap -sV -Pn 192.168.1.10
 | `-sn`  | Host discovery only, no port scan             |
 | `-Pn`  | Skip host discovery and assume host is online |
 
----
 
-## Key Interview Questions
 
-### What does -Pn do in Nmap?
-
-It skips host discovery and treats the target as online.
-
-### Why would you use -Pn?
-
-When ICMP or other discovery probes are blocked by a firewall.
-
-### Does -Pn guarantee that a host is online?
-
-No. Nmap simply assumes the host is online and attempts to scan it.
-
-### Is -Pn faster than normal scanning?
-
-No. It is usually slower because Nmap scans targets without first verifying whether they are active.
-
-### What is the difference between -sn and -Pn?
-
-`-sn` performs only host discovery, while `-Pn` skips host discovery and proceeds directly to scanning.
